@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: ' nav'
+                         'header'
+                         'section'
+                         'aside'
+                         'footer';
+    grid-template-rows: 90vh 40vh 50vh 60vh 20vh;
+    background-color: green;
+}
+
+nav{
+    grid-area: nav;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-image: url(img/banner.png);
+}
+
+nav div img{
+}
+
+h2{
+    color: white;
+    font-size: 12pt;
+
+}
+
+header{
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+header img{
+    padding: 25px;
+    border-radius: 120px;
+    background-color: green;
+}
+
+section{
+    grid-area: section;
+    background-color: grey;
+}
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aquamarine;
+}
