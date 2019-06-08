@@ -1,11 +1,11 @@
 body{
     margin: 0;
     display: grid;
-    grid-template-areas: ' a a a a'
-                         ' b b b b'
-                         'c c d d'
-                         'e e e e  '
-                         'f f f f ';
+    grid-template-areas: ' a '
+                         ' b '
+                         'c '
+                         'e '
+                         'f ';
     grid-template-rows: 55vh 40vh 50vh 60vh 20vh;
     background-color: #37c771;
 }
@@ -24,6 +24,7 @@ h1{
     color: white;
     font-size: 30pt;
     font-family: 'Pacifico', cursive;
+    font-weight: 70;
 }
 
 span{
@@ -42,12 +43,17 @@ header div img{
     opacity: 0.5;
     padding: 10px;
     background-color: black;
-    border-radius: 50px;
+    border-radius: 100%;
     cursor: pointer;
 }
 header div img:hover{
     opacity: 1;
     background-color: #37c771;
-    margin: 5px;
     border-radius: 50px;
+}
+
+#maozinha{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
 }
