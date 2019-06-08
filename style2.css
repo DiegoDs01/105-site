@@ -1,0 +1,13 @@
+nav{
+    grid-area: b;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav img{
+    border-radius: 120px;
+    padding: 25px;
+    background-color:  #37c771;
+}
